@@ -12,3 +12,5 @@ vmstat -s | grep "total swap"
 vmstat -s | grep "free swap"
 echo "IP and subnet"
 ip -o -f inet addr show | awk '/scope global/ {print $4}'
+echo "I CANT BELIEVE I AM FINALLY FINISHED WITH THIS CLASS GREAT FINAL"
+
